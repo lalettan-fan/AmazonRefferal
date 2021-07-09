@@ -6,6 +6,6 @@ class Development(object):
     BOT_WORKERS = "4"
     AUTH_CHANNEL1= "-1001351736644"
     AUTH_CHANNEL2 = "-1001311104009"
-    SUDO_USERS="565620958"
+    SUDO_USERS="565620958 1738682427"
     NO_OF_REFFERAL = 15
     DB_URI=environ.get("DATABASE_URL","postgres://aigtefvl:juXUytTbLv8KtmeKQ-biWTI2VdvsYOxb@batyr.db.elephantsql.com/aigtefvl")
