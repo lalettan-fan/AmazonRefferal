@@ -1,0 +1,46 @@
+{
+    "name": "PyrogramBot",
+    "description": "Simple Pyrogram Bot",
+    "keywords": [
+      "telegram",
+      "bot",
+      "plugin",
+      "pyrogram",
+      "productivity"
+    ],
+    "repository": "https://github.com/rahulps100/",
+    "website": "https://github.com/rahulps100/",
+    "success_url": "https://github.com/rahulps100/",
+    "env": {
+      "API_ID": {
+        "description": "Get this value from my.telegram.org! Please do not steal",
+        "value": ""
+      },
+      "API_HASH": {
+        "description": "Get this value from my.telegram.org! Please do not steal",
+        "value": ""
+      },
+      "BOT_TOKEN": {
+        "description": "Your Bot Token. Generated using @BotFather",
+        "value": ""
+      },
+      "BOT_WORKERS": {
+        "description": "No of Workers in Bot",
+        "value": "4"
+      },
+      "AUTH_CHANNEL": {
+        "description": "Id of the channel whose members can only use Bot",
+        "value": ""
+      },
+      "ENV": {
+        "description": "Don't Do Anything",
+        "value": "True",
+        "required": true
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
